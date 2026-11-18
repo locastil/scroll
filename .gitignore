@@ -1,0 +1,5 @@
+﻿.venv/
+browser_data/
+*.log
+settings.json
+__pycache__/
