@@ -1,5 +1,32 @@
-﻿.venv/
-browser_data/
-*.log
-settings.json
+﻿# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+.env.*
+settings.json
+
+# WebView2 browser profile: logins, cookies, cache. Never commit.
+browser_data/
+EBWebView/
+*.cookies
+Cookies
+Cookies-journal
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
